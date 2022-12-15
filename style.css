@@ -1,0 +1,143 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+#header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,79,1) 100%);
+}
+
+#mestre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#corpo{
+    min-height: 1000px;
+
+}
+
+.tituloh1{
+    margin: 10px;
+    padding: 10px;
+}
+
+#logo img{
+    border-radius: 20px;
+    height: 100px;
+}
+
+.linksExternos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.ancoras{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+.ancoras2{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ancoras2 img{
+    height: 50px;
+}
+
+#corpo{
+    height: 800px;
+    width: 100%;
+    background-image: url(./foto\ de\ cima\ de\ um\ notebook.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1500px ;
+    color: white;
+    font-size:x-large;
+    overflow: hidden;
+}
+
+.containerPai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    height: auto;
+}
+
+.containerFilho1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.containerFilho2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+    font-family: sans-serif;
+    /*position:absolute;*/
+    /* position:absolute fez com que a imagem e o texto na div nao ficassem cortadas pelo footer*/
+}
+
+.fotosFelipe img{
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.paragrafoGeral{
+    margin: 10px;
+    padding: 10px;
+    max-height: 350px;
+    overflow: auto;
+    font-family: sans-serif;
+}
+
+.tituloh1{
+    color:white;
+    font-size:50px;
+
+
+}
+#footer{
+    min-height: 100px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(253,45,79,1) 100%);
+    
+}
+
